@@ -1,0 +1,68 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+.container {
+  width: 450px; /*tous le travail ne depasse pas largeur de l'image*/
+  margin: auto; /*tous le travail et au centre*/
+  margin-top: 100px;
+  text-align: center;
+  background-color: white;
+}
+.container img {
+  border-radius: 60px 60px 0px 0px;
+}
+.container h3 {
+  color: hsl(223, 47%, 23%);
+}
+.container p {
+  padding: 10px 50px;
+  line-height: 1.8;
+  color: hsl(224, 23%, 55%);
+}
+.card {
+  display: flex;
+  align-items: center; /*mettre l'ecriture au centre*/
+  justify-content: space-around;
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.card .col:nth-of-type(1) p:nth-of-type(1) {
+  font-weight: bold;
+  color: hsl(223, 47%, 23%);
+  margin: 0 0 10px 0;
+}
+.card .col:nth-of-type(1) p:nth-of-type(2) {
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+}
+.card .col:nth-of-type(1) {
+  display: flex;
+  align-items: center; /*meme ligne */
+}
+.pay,
+.order {
+  display: block;
+}
+.pay {
+  background-color: hsl(245, 75%, 52%);
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+.order {
+  margin: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
